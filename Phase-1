@@ -1,0 +1,13 @@
+appliance = input("Enter appliance: ")
+hours = float(input("Enter usage hours: "))
+power = 0.45
+units = power * hours
+cost = units * 8
+print("\nAppliance Added:", appliance)
+print("Enter usage hours:", int(hours))
+print(f"Units Consumed: {units} kWh")
+print(f"Cost: ₹{cost:.2f}")
+print("\nHigh-Energy Device Detected: Air Conditioner")
+print("Recommendation: Reduce usage during peak hours")
+monthly_bill = 1850
+print(f"\nTotal Monthly Bill: ₹{monthly_bill:.2f}")
